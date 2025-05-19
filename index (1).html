@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EFDMedia</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #f8f9fa, #e9ecef);
+      color: #212529;
+      line-height: 1.6;
+    }
+    header {
+      background: #343a40;
+      color: white;
+      padding: 1.5rem 1rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    header h1 {
+      margin-bottom: 0.5rem;
+    }
+    nav a {
+      color: #f8f9fa;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #ffc107;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem 1rem;
+      animation: fadeIn 1s ease-in;
+    }
+    section {
+      margin-bottom: 3rem;
+      padding: 2rem;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+      transition: transform 0.3s;
+    }
+    section:hover {
+      transform: translateY(-5px);
+    }
+    h2 {
+      color: #495057;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 1.1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: #343a40;
+      color: white;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>EFDMedia</h1>
+    <nav>
+      <a href="#beranda">Beranda</a>
+      <a href="#tentang">Tentang Saya</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="beranda">
+      <h2>Selamat Datang di EFDMedia</h2>
+      <p>Ini adalah website pribadi saya yang berisi informasi seputar kegiatan, karya, dan pemikiran saya. Terima kasih sudah berkunjung!</p>
+    </section>
+
+    <section id="tentang">
+      <h2>Tentang Saya</h2>
+      <p>Halo! Saya adalah pemilik EFDMedia. Saya suka berbagi ide, membuat konten, dan terus belajar hal baru. Website ini adalah ruang digital saya untuk mengekspresikan diri dengan bebas dan kreatif.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 EFDMedia. All rights reserved.</p>
+  </footer>
+</body>
+</html>
